@@ -1,6 +1,6 @@
 import { Application } from 'express';
 //import { MicroframeworkSettings, MicroframeworkLoader } from 'microframework-w3tec';
-import { env } from '../../../env';
+import { env } from '../../env';
 import { createExpressServer } from 'routing-controllers';
 import {MicroframeworkSettings} from "microframework";
 

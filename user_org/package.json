@@ -1,0 +1,37 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "REST API for bots",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nps",
+    "build": "npm start build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bots"
+  ],
+  "author": "Abhijeet",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^11.11.7",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonfile": "^5.0.0",
+    "microframework": "^0.6.4",
+    "microframework-w3tec": "^0.6.3",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.19",
+    "nps": "^5.9.5",
+    "nps-utils": "^1.7.0",
+    "path": "^0.12.7",
+    "routing-controllers": "^0.7.7",
+    "typescript": "^3.3.4000",
+    "util": "^0.11.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.3"
+  }
+}
